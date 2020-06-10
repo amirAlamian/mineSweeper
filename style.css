@@ -1,0 +1,89 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	height: 100vh;
+	flex-direction: column;
+}
+.main{
+	
+	width: 500px;
+	height: 500px;
+	display: flex;
+	flex-wrap:wrap;
+}
+.box{
+	width:8.333%;
+	height:8.34%;
+	border: 1px solid black;
+	flex-grow: 1;
+	display: flex;
+	background-color: lightgray;
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+	
+}
+.unactive{
+	border: none;
+	background-color: white;
+}
+.bombNone{
+	display: none;
+}
+.statusBox{
+	width: 100%;
+	display: none;
+	color: red;
+	text-align: center;
+	font-size: 40px;
+}
+.wrap{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.block{
+display: block;
+}
+.flag{
+	background-image: url('flag.ico');
+	background-size: 100% 100%;
+}
+#nob{
+	width: 250px;
+	padding: 10px;
+	outline: none;
+	border:gray solid 2px;
+	border-radius: 3px;
+}
+.green{
+	width: 80px;
+	padding: 10px;
+	background-color: inherit;
+	border: green solid 2px;
+	outline: none;
+	cursor: pointer;
+	border-radius: 3px;
+}
+
+.red{
+	width: 80px;
+	padding: 10px;
+	background-color: inherit;
+	border: red solid 2px;
+	outline: none;
+	cursor: pointer;
+	border-radius: 3px;
+}
+form{
+	display: inline-block;
+}
